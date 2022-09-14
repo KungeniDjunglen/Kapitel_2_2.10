@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Uppgift1_2
 {
@@ -6,8 +6,10 @@ namespace Uppgift1_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Theodor");
-            Console.WriteLine("Denna rad har jag skrivit");
+            Console.WriteLine("Hejsan");
+            Console.WriteLine("Vilken är din favoritbok?");
+            string bok = Console.ReadLine();
+            Console.WriteLine("Din favoribok är: " + bok);
         }
     }
 }
